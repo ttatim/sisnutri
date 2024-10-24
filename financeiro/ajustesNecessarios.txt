@@ -1,0 +1,12 @@
+#### Ajustes necessários ####
+
+Criar uma cron para execução do script:
+
+0 0 10 1 * /usr/bin/php /caminho/para/seu/projeto/admin/ir.php
+
+
+### Bibliotecas necessárias na pasta vendor para execução correta ###
+
+require phpoffice/phpspreadsheet
+
+require phpmailer/phpmailer
